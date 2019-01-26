@@ -3,7 +3,7 @@
 import re
 
 print('''Type your password here. 
-      A strong password contains numbers, contains both UPPERCASE and lowercase letters, and is at least 8 characters long.''')
+A strong password contains numbers, UPPERCASE and lowercase letters, and is at least 8 characters long.''')
 
 password = input()
 

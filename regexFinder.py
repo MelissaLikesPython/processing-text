@@ -1,6 +1,7 @@
 #! /usr/bin/env python3
 
 # This program searches all plain text files in a folder for a user-inputted regex.
+# Note: Choose UTF-8 as your encoding when converting word processing files to plain text. 
 
 import os, re
 

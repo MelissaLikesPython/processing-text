@@ -1,0 +1,10 @@
+tagged = # paste your tagged text here in a list structure.
+
+# This code extracts adjective+noun bigrams from a text tagged using the nltk tagger. Adjust tags as desired. 
+
+for item in tagged: 
+    if 'JJ' in item: 
+        indexed = tagged.index(item)
+        bigram = tagged[indexed] + tagged[indexed + 1]
+        if 'JJ' and 'NN' in bigram:
+            print(bigram)

@@ -1,4 +1,4 @@
-tagged = # paste your tagged text here in a list structure.
+tagged = [] # your tagged text here in a list.
 
 # This code extracts adjective+noun bigrams from a text tagged using the nltk tagger. Adjust tags as desired. 
 
